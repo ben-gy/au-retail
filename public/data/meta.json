@@ -1,0 +1,80 @@
+{
+  "generated": "2026-07-30T12:40:20.145Z",
+  "firstMonth": "1982-04",
+  "firstMonthLabel": "Apr 1982",
+  "latestMonth": "2025-06",
+  "latestMonthLabel": "Jun 2025",
+  "latestQuarter": "2025-Q2",
+  "latestQuarterLabel": "Q2 2025",
+  "headline": {
+    "latestMonthlyTotal": 37906600000,
+    "latestMonthlyOrig": 36351900000,
+    "annualTotal": 443730900000,
+    "yoyNominal": 0.033377852973403455,
+    "yoyReal": 0.009819953166524398,
+    "biggestGroup": {
+      "code": "41",
+      "name": "Food retailing",
+      "short": "Food",
+      "share": 0.39707804888052645
+    },
+    "cafes12": 66273200000,
+    "dept12": 23142000000
+  },
+  "counts": {
+    "months": 519,
+    "quarters": 168,
+    "states": 8,
+    "groups": 6,
+    "leaves": 15
+  },
+  "medians": {
+    "change": 0.03313988006668611,
+    "perCapita": 15935.882244595448,
+    "realChange": 0.006422991689548518
+  },
+  "annotations": [
+    {
+      "month": "2000-07",
+      "text": "GST introduced"
+    },
+    {
+      "month": "2008-10",
+      "text": "GFC"
+    },
+    {
+      "month": "2020-03",
+      "text": "COVID panic-buy"
+    },
+    {
+      "month": "2020-04",
+      "text": "First lockdown"
+    },
+    {
+      "month": "2022-05",
+      "text": "Rate hikes begin"
+    }
+  ],
+  "gates": {
+    "category": {
+      "checks": 27979,
+      "fails": 0,
+      "worstAbs": 200000.0000000149,
+      "worstRel": 0.03333333333333333,
+      "pass": true
+    },
+    "state": {
+      "checks": 2232,
+      "fails": 0,
+      "worstAbs": 300000,
+      "worstRel": 0.00034524426031417227,
+      "pass": true
+    }
+  },
+  "source": {
+    "retail": "https://www.abs.gov.au/statistics/industry/retail-and-wholesale-trade/retail-trade-australia",
+    "api": "https://data.api.abs.gov.au/rest/data/ABS,RT,1.0.0",
+    "erp": "https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population",
+    "boundaries": "https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3"
+  }
+}

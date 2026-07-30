@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Retail Spending">
+  <rect width="32" height="32" rx="7" fill="#0f6e6e"/>
+  <!-- shopping bag -->
+  <path d="M8 12 h16 l-1.4 13.4 a1.6 1.6 0 0 1-1.6 1.4 H11 a1.6 1.6 0 0 1-1.6-1.4 Z" fill="#fbf7ef"/>
+  <path d="M11.4 12 v-1.4 a4.6 4.6 0 0 1 9.2 0 V12" fill="none" stroke="#fbf7ef" stroke-width="2.1" stroke-linecap="round"/>
+  <!-- rising bars inside -->
+  <rect x="12.4" y="19.5" width="2.2" height="4" rx="0.5" fill="#0f6e6e"/>
+  <rect x="15.5" y="17" width="2.2" height="6.5" rx="0.5" fill="#0f6e6e"/>
+  <rect x="18.6" y="15" width="2.2" height="8.5" rx="0.5" fill="#d9533f"/>
+</svg>

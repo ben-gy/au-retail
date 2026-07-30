@@ -1,0 +1,11 @@
+{
+  "name": "au-retail-pipeline",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Fetch + shape ABS Retail Trade into public/data JSON",
+  "scripts": {
+    "collect": "node collect.mjs",
+    "aggregate": "node aggregate.mjs"
+  }
+}
