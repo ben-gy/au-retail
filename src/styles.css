@@ -1,6 +1,14 @@
 /* Retail Spending — warm, light "shopfront" theme. Category colours live in
    format.ts and are identical across every view. */
 
+/* The [hidden] guard — MUST stay above the component rules.
+   An author rule like `.modal{display:grid}` or `.drawer{display:flex}` outranks
+   the browser's `[hidden]{display:none}` (author origin beats the UA stylesheet
+   regardless of specificity), so an element hidden via the `hidden` ATTRIBUTE
+   that is also given a `display` by a class is never actually hidden — and
+   `el.hidden = true` does nothing at all. */
+[hidden] { display: none !important; }
+
 :root {
   --bg-base: #faf8f3;
   --bg-surface: #f2efe8;
